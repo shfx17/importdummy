@@ -36,7 +36,7 @@ class AdminImportDummyController extends ModuleAdminController
         $data = json_decode($json, true);
 
         if (!isset($data['products'])) {
-            return '<div class="alert alert-danger">Błąd pobierania danych z API.</div>';
+            return '<div class="alert alert-danger"> Error with API.</div>';
         }
 
         $addedCount = 0;
