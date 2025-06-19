@@ -17,7 +17,7 @@ class ImportDummy extends Module
         parent::__construct();
 
         $this->displayName = $this->l('Import Dummy Products');
-        $this->description = $this->l('Importuje produkty z dummyjson.com przez API');
+        $this->description = $this->l('Import products from Dummy.');
     }
 
     public function install(): bool
